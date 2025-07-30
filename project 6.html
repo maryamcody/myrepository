@@ -1,0 +1,102 @@
+<hlml> 
+    <head >
+        <style>
+            fieldset{
+                background-color: bisque;
+            }
+        </style>
+    </head>
+    <body style=" background-color: aquamarine">
+        <center>
+        <h1>
+            Student Registration Form
+        </h1></center>
+        <form action="/action_page.php" oninput = "x.value=(parseInt(m1.value)+parseInt(m2.value)+parseInt(m3.value)+parseInt(m4.value))/4">
+            <fieldset>
+                <legend>Personal Information</legend>
+                Name:<input type="text" name="name" required placeholder="Enter your name"><br>
+                Date of Birth:<input type="date" name="dob" required><br>
+
+                Gender:<select name="radio" required <option value="">--select--</option>
+                <option>male </option>
+                <option>female</option>
+                Grade applying for:<select name="grade" required><br>
+                </fieldset>
+               
+            <p>
+                <h2>Marks</h2>
+                <fieldset>
+                    <label for="m1">Marks in History:</label>
+                    <input type="number" id="m1" name="m1" min="0" max="100" required>
+                    <br>
+                    <label for="m2">Marks in English :</label>
+                    <input type="number" id="m2" name="m2" min="0" max="100" required>
+                    <br>
+                    <label for="m3">Marks in Science :</label>
+                    <input type="number" id="m3" name="m3" min="0" max="100" required>
+                    <br>
+                    <label for="m4">Marks in Math:</label>
+                    <input type="number" id="m4" name="m4" min="0" max="100" required>
+                    <br>
+                    Average Marks: <output name="x"></output>
+            </p>
+            <p>
+                <label for ="Parent name ">Parent's Name:</label>
+                <input type="text" id="parent_name" name="parent_name" required placeholder ="Enter parent's name"><br>
+                <label for="parent_contact">Parent's Contact Number:</label>    
+                <input type="tel" id="parent_contact" name="parent_contact" required placeholder="Enter parent's contact number"><br>
+                <label for="address">Address:</label>   
+                <textarea id="address" name="address" rows="1" cols="20" required placeholder="Enter your address"></textarea><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required placeholder="Enter your email"><br>
+
+                Joining Date:
+                <input type="date" id="joining_date" name="joining_date" required> <br>
+ <input type="radio" name="gender" id="gender" value="female"> Female <br>
+  <input type="radio" name="gender" id="gender" value="male"> Male <br>
+            </fieldset>
+                <h3 style="background-color: brown;color:aliceblue">Choose your subject </h3>
+               <fieldset>
+               
+                <input type="checkbox" name="subject" id="subject1" value="English"> English <br> 
+                <input type="checkbox" name="subject" id="subject2" value="Math"> Math <br> 
+                <input type="checkbox" name="subject" id="subject3" value="Art"> Art <br> 
+               
+               </fieldset>
+               
+
+
+               
+               
+
+
+              
+
+                <button type="submit">Submit</button>
+
+                  
+            </p>
+                    
+                    </select>
+                <fieldset>
+                    
+
+                        </select>
+                
+
+                        </select>
+
+
+                </fieldset>
+
+
+            
+
+            </feildset>
+        </form>
+
+
+            
+    </body>
+
+</hlml>
