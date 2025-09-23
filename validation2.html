@@ -1,0 +1,21 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <p>Enter a number </p>
+        <input id="id1" type="number" min="13" max="40" >
+        <button onclick="myFunction()">Submit</button>
+        <script>
+            function myFunction() {
+                var x = document.getElementById("id1").value;
+                if (!x.checkValidity()){
+                    document.write("Input is not valid");
+                } else {
+                    document.write("Input is valid");
+                    
+                }
+            }
+        </script>
+    </body>
+</html>
