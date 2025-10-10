@@ -1,7 +1,61 @@
 #calculator{
     width: 320px;
     height: 520px;
-    background-color: aquamarine;
+    background-color: rgb(0, 217, 255);
     border-radius: 5px;
     top: 20px;
+    box-shadow: 0px 4px 80px rgba(0, 204, 255, 0.288);
+}
+#container{
+    Width:1000px;
+    height: 550px;
+    margin: auto;
+    background:linear-gradient(to right, #434343, #000000);
+
+}
+#keyboard{
+    height: 400px;
+}
+.operator, .number, .empty{
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    border: 1px solid black;
+    float: left;
+    text-align: center;
+    border-radius: 50px;
+    margin: 15px;
+    
+}
+#result{
+    height: 120px;
+}
+#histoty{
+    height:20px;
+    text-align: right;
+    margin: 0 20px;
+    front-size: 30px;
+    color: white;
+}
+#output{
+    text-align: right;
+    height: 60px;
+    margin: 10px 20px;
+    color: whitesmoke;
+}button:nth-child(4){
+    font-size: 20px;
+    background-color:blue;
+}
+button:nth-child(8){
+    font-size: 20px;
+    background-color:chocolate;
+
+}
+button:nth-child(12){
+    font-size: 20px;
+    background-color: burlywood;
+}
+button:nth-child(16){
+    font-size: 20px;
+    background-color: brown;
 }
