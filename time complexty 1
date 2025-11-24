@@ -1,0 +1,11 @@
+def printnumber(n):
+    iteration = 0
+    print("Numder enter by user is:",n)
+    iteration+=1
+    print("Total number of iterations is:",iteration)
+
+
+
+printnumber(10)
+printnumber(20)
+print("\n with any 'n'the time won't change")
